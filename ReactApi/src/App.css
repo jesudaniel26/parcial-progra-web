@@ -1,0 +1,67 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #0D3383;
+}
+
+.contact-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 20px;
+}
+
+.contact-card {
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-image {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.contact-details {
+  margin-top: 10px;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  padding: 10px; 
+  background-color: #98c3ed;
+  border-radius: 8px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+form {
+  margin-top: 20px;
+}
+
+input[type="text"],
+button {
+  padding: 10px;
+  margin: 5px 0;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+input[type="text"]:focus,
+button:focus {
+  outline: none;
+  border-color: #98c3ed;
+}
+
+button {
+  background-color: #98c3ed;
+  color: black;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #98c3ed;
+}
